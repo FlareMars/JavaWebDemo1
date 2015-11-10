@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WebDemo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="webdemo.war">
+      <element id="artifact" artifact-name="WebDemo:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql:mysql-connector-java:5.1.3" />
+          <element id="library" level="project" name="tomcat-coyote" />
+          <element id="library" level="project" name="json-lib-2.4-jdk15" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+  <display-name>"Demo Tags"</display-name>
+  <tlib-version>1.0</tlib-version>
+  <short-name>demo</short-name>
+  <uri>/demo-tags</uri>
+  
+   <tag>
+    <name>path</name>
+    <tag-class>com.flaremars.common.tag.ContextPathTag</tag-class>
+    <body-content>JSP</body-content>
+  </tag>
+  
+  <tag>
+    <name>basePath</name>
+    <tag-class>com.flaremars.common.tag.BasePathTag</tag-class>
+    <body-content>JSP</body-content>
+  </tag>
+
+</taglib>
